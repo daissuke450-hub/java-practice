@@ -1,0 +1,38 @@
+# Eclipse 関連
+.settings/
+.project
+.classpath
+
+# ビルド出力
+bin/
+target/
+
+# OS固有ファイル
+.DS_Store
+Thumbs.db
+
+# MavenやGradleのディレクトリ（もし使用していたら）
+/.mvn/
+/target/
+/build/
+
+# IDE固有ファイル（IntelliJ IDEAなど、Eclipse以外も念のため）
+.idea/
+*.iml
+
+# 実行時生成ファイル
+*.class
+
+# ライブラリ
+lib/*.jar
+
+# CSVやテキストファイルはgit管理したいので除外しない
+
+# その他個人環境の設定ファイルがあればここに追加
+
+# DB接続情報
+db.properties
+
+# サンプルファイル
+*.txt
+*.csv

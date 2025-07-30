@@ -1,0 +1,25 @@
+# コンパイル済みクラス
+*.class
+
+# パッケージング成果物
+*.jar
+*.war
+*.ear
+
+# ログファイル
+*.log
+
+# IDE
+*.iml
+.idea/
+.project
+.classpath
+.settings/
+
+# ビルド成果物
+target/
+bin/
+
+# OS依存
+.DS_Store
+Thumbs.db

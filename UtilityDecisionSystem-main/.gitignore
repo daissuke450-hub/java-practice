@@ -1,0 +1,22 @@
+# CSVファイル
+*.csv
+
+# テキストファイル
+*.txt
+
+# libファイル
+lib/*.jar
+
+# xmlファイル
+*.xml
+
+# Eclipse 関連
+.settings/
+.project
+.classpath
+
+# ビルド出力
+bin/
+target/
+
+
