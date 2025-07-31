@@ -1,0 +1,37 @@
+# === Java 関連 ===
+*.class
+*.jar
+*.war
+*.ear
+
+# === Eclipse 関連 ===
+.project
+.classpath
+.settings/
+
+# === ビルド出力 ===
+bin/
+target/
+
+# === OSによるファイル ===
+.DS_Store
+Thumbs.db
+
+# === ライブラリ格納フォルダ===
+lib/*.jar
+
+# === 環境設定ファイル（ユーザーごとに異なる）===
+db.properties
+
+# === バックアップ・一時ファイル ===
+*~
+*.bak
+*.tmp
+
+# === IDEAや他IDE用 ===
+.idea/
+*.iml
+out/
+
+# === テスト出力やレポート ===
+test-output/
