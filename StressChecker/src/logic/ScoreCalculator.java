@@ -58,7 +58,7 @@ public class ScoreCalculator {
 
 		double zScore = (totalScore - avg) / variance;
 
-		if (zScore >= 2) {
+		if (zScore >= 2 && totalScore > 5) {
 			return "考慮あり";
 		} else {
 			return "考慮なし";
