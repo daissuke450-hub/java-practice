@@ -1,0 +1,48 @@
+# コンパイル成果物
+/bin/
+/out/
+/target/
+
+# IDE設定ファイル
+/.classpath
+/.project
+/.settings/
+/.idea/
+/*.iml
+
+# ログファイル
+*.log
+
+# Maven関連
+/logs/
+/dependency-reduced-pom.xml
+/release.properties
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+
+# Eclipseファイル
+.metadata
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+
+# OSファイル
+.DS_Store
+Thumbs.db
+
+# 設定ファイル
+db.properties
+
+# JARファイル
+*.jar
+
+# CSVファイル
+*.csv
+
+# XMLファイル
+*.xml
